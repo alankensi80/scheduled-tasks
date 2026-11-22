@@ -41,7 +41,7 @@ for item in data:
         #random letter
         letter = random.choice(letters)
 
-        with open(f"letter_templates\\{letter}", "r") as f:
+        with open(f"letter_templates/{letter}", "r") as f:
             content = f.read()
             content = content.replace("[NAME]", name)
         print(content)
