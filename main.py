@@ -7,7 +7,7 @@
 
 
 import datetime as dt
-import pandas
+import pandas as pd
 import random
 import smtplib
 import os
